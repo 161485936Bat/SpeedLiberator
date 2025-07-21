@@ -1,36 +1,70 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+# 操作系统生成的文件
 .DS_Store
-*.pem
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# debug
+# 编辑器和IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
+# 依赖目录
+node_modules/
+bower_components/
+
+# 构建输出
+dist/
+build/
+out/
+
+# 缓存文件
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# 环境变量文件
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# vercel
-.vercel
+# 包管理器文件
+package-lock.json
+yarn.lock
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# 临时文件
+*.tmp
+*.temp
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 备份文件
+*.bak
+*.backup
+
+# 测试覆盖率报告
+coverage/
+*.lcov
+
+# 其他
+*.pid
+*.seed
+*.pid.lock
